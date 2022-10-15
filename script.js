@@ -146,5 +146,60 @@
 //     console.log('ничего');
 //     break
 // }
+ 
+let ar = ['lion','bear','cat']
+// let ar1 = ['lion','bear','cat']
+// ar[0]='dog'
+// ar.push(8)
+// ar.pop()
+// ar.shift()
+// ar.unshift('cat')
 
+
+// let b = ar.concat(ar1)
+console.log(ar.map(a => a=1));
+
+
+// let i =  0 
+// while (i < 2) {
+//     console.log('i меньше 2');
+//     // i++
+// }
+
+// for (let i = 0; i < ar.length; i++) {
+//     console.log(ar[i]);
+//     if (ar[2] === 'cat'){
+//         console.log('yes!'); 
+//      }else {
+//         console.log('no!')
+//      }
+//     }
+
+
+    let d = 'Pizza'
+    let d1 = d.split('')
+    for (let i = 0; i < d.length; i++) {
+ console.log(d1[i]);
+if (d1[i]==='i'){
+    d1[i]='o'
+console.log(d1[i]);
+}
+    }
+    let a = ''
+    for (let i = 0; i < d.length; i++) {
+    a += d1[i]
+    }
+    console.log(d1);
+ 
+
+
+
+ 
+
+
+
+// console.log(b);
+// console.log(ar[0]);
+// console.log(ar.length)
+// console.log(ar);
 
