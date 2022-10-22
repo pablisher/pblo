@@ -147,17 +147,16 @@
 //     break
 // }
  
-let ar = ['lion','bear','cat']
-// let ar1 = ['lion','bear','cat']
-// ar[0]='dog'
-// ar.push(8)
-// ar.pop()
-// ar.shift()
-// ar.unshift('cat')
+
+// // ar[0]='dog'
+// // ar.push(8)
+// // ar.pop()
+// // ar.shift()
+// // ar.unshift('cat')
 
 
-// let b = ar.concat(ar1)
-console.log(ar.map(a => a=1));
+// // let b = ar.concat(ar1)
+// console.log(ar.map(a => a=1));
 
 
 // let i =  0 
@@ -176,27 +175,72 @@ console.log(ar.map(a => a=1));
 //     }
 
 
-    let d = 'Pizza'
-    let d1 = d.split('')
-    for (let i = 0; i < d.length; i++) {
- console.log(d1[i]);
-if (d1[i]==='i'){
-    d1[i]='o'
-console.log(d1[i]);
+//     let d = 'Pizza'
+//     let d1 = d.split('')
+// //     for (let i = 0; i < d.length; i++) {
+// //  console.log(d1[i]);
+// // if (d1[i]==='i'){
+// //     d1[i]='o'
+// // console.log(d1[i]);
+// // }
+// //     }
+//     // let a = ''
+//     for (let i = 0; i < d.length; i++) {
+//     // a += d1[i]
+//     }if (d==='Pizza'){
+//         d='Pozza'
+//     }
+
+// let a = ar.filter(item => item > 2000
+// )
+// console.log(a);
+
+//     console.log(d);
+
+// let ar = [1993,1992,1910,1948,2001,2008]
+// let ar1 = ['lion','bear','cat']
+
+// let a =[]
+// let a1 = []
+// let boolean = [true, false, true, false]
+// let boolean1 = boolean
+// for (let i = 0; i < boolean.length; i++) 
+//     if (boolean1[i] === true){
+//     a.push(boolean1[i]) 
+// } 
+// for (let i = 0; i < boolean.length; i++)
+// if (boolean1[i] === false){
+//     a1.push(boolean1[i]) 
+// }
+// console.log(a.length,a1.length);
+
+// let n = boolean.filter(item => item === false)
+//  let b = boolean.filter(item => item ===  true)
+//  console.log(n.length,b.length)
+
+
+
+// console.log(ar1.includes('lion'));
+// console.log(ar1.findIndex(item => item ==='lion'));
+// console.log(ar1.indexOf('lion'));
+
+
+// let answer1 = Math.ceil(Math.random())
+// console.log(answer1);
+let answer = Math.floor(Math.random()*10)
+let a = +prompt('сколько')
+for (let i = 0; i < 5; i++) {
+  if (a !== answer ){
+   alert('невернo');   
+     a = +prompt('сколько')
+    } else {
+        alert('верно');
+        break
+    }  
 }
-    }
-    let a = ''
-    for (let i = 0; i < d.length; i++) {
-    a += d1[i]
-    }
-    console.log(d1);
- 
 
-
-
- 
-
-
+console.log();
+// console.log(answer);
 
 // console.log(b);
 // console.log(ar[0]);
