@@ -227,19 +227,64 @@
 
 // let answer1 = Math.ceil(Math.random())
 // console.log(answer1);
-let answer = Math.floor(Math.random()*10)
-let a = +prompt('сколько')
-for (let i = 0; i < 5; i++) {
-  if (a !== answer ){
-   alert('невернo');   
-     a = +prompt('сколько')
-    } else {
-        alert('верно');
-        break
-    }  
-}
+// let answer = Math.floor(Math.random()*10)
+// let a = +prompt('сколько')
+// for (let i = 0; i < 5; i++) {
+//   if (a !== answer ){
+//    alert('невернo');   
+//      a = +prompt('сколько')
+//     } else {
+//         alert('верно');
+//         break
+//     }  
+// }
 
-console.log();
+// let ad = 3 
+// let bs  = [1,2,3]
+// let cd = [1,7,8]
+// let ver = 61.36
+// let sdr = +prompt('доллары')
+// function foo(a,b) {
+//  let ard = a * b
+//  alert(`${ard} рублей`);
+// }
+// foo(sdr,ver)
+
+// let ver = 0
+// let sdr = +prompt('сколько вам лет?')
+// function foo(a,b) {
+//  for (let i = 0; i < 18 ; i++) {
+//  if(a > 17 ){
+//   alert('вам сюда можно')
+//   break
+//  }
+//   }
+  
+// if (a < 18){
+//   alert('вам сюда нельзя')
+// }
+// }
+// foo(sdr)
+
+
+// if (isNaN(sdr)){
+//   alert('не число')
+// }else {
+//   des(sdr)
+// }
+
+// function foo(a){
+//   des.push(a)
+//   a = +prompt()
+// }
+
+
+// console.log(des);
+
+// console.log(ad);
+
+
+// console.log();
 // console.log(answer);
 
 // console.log(b);
