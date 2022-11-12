@@ -292,3 +292,52 @@
 // console.log(ar.length)
 // console.log(ar);
 
+//  let a = Math.ceil(Math.random())
+//  console.log(a);
+
+//  .ceil
+//  .floor
+//  .max==============> методы math
+//  .min
+//  .round
+
+
+// let foo = [1,2,3,4,5,6,7,8,9,10]
+// let ter = []
+// let ter1 =[]
+// function a (ber) {
+//   for (let i = 0;  i < ber.length; i++) {
+//     if (ber[i] % 2 === 0){
+// ter.push(ber[i])
+//     }else{
+// ter1.push(ber[i])
+//     }
+//      }  
+
+// }
+// a (foo)
+// console.log(ter);
+// console.log(ter1);
+
+// function a(){
+//  let b1 = 0
+//  let b2 = 0
+//  let df = 0 
+//     function b(){
+//     let al = 4
+// b1 = al
+//     } 
+
+//     b()
+//     function c() {
+//     let pa = 3
+// b2 = pa
+//     }
+//     c()
+//   return df = b1+b2
+// }
+
+
+// console.log(a());
+
+
