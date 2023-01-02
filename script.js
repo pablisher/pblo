@@ -339,5 +339,411 @@
 
 
 // console.log(a());
+let a = ar.filter(item => item > 2000
+//   )
+//   console.log(a);
+  
+//   console.log(d);
+  
+//   let ar = [1993,1992,1910,1948,2001,2008]
+//   let ar1 = ['lion','bear','cat']
+  
+//   let a =[]
+//   let a1 = []
+//   let boolean = [true, false, true, false]
+//   let boolean1 = boolean
+//   for (let i = 0; i < boolean.length; i++) 
+//   if (boolean1[i] === true){
+//   a.push(boolean1[i]) 
+//   } 
+//   for (let i = 0; i < boolean.length; i++)
+//   if (boolean1[i] === false){
+//   a1.push(boolean1[i]) 
+//   }
+//   console.log(a.length,a1.length);
+  
+//   let n = boolean.filter(item => item === false)
+//    let b = boolean.filter(item => item ===  true)
+//    console.log(n.length,b.length)
+  
+  
+  
+//   console.log(ar1.includes('lion'));
+//   console.log(ar1.findIndex(item => item ==='lion'));
+//   console.log(ar1.indexOf('lion'));
+  
+  
+//   let answer1 = Math.ceil(Math.random())
+//   console.log(answer1);
+//   let answer = Math.floor(Math.random()*10)
+//   let a = +prompt('сколько')
+//   for (let i = 0; i < 5; i++) {
+//     if (a !== answer ){
+//      alert('невернo');   
+//        a = +prompt('сколько')
+//       } else {
+//           alert('верно');
+//           break
+//       }  
+//   }
+  
+//   let ad = 3 
+//   let bs  = [1,2,3]
+//   let cd = [1,7,8]
+//   let ver = 61.36
+//   let sdr = +prompt('доллары')
+//   function foo(a,b) {
+//    let ard = a * b
+//    alert(`${ard} рублей`);
+//   }
+//   foo(sdr,ver)
+  
+//   let ver = 0
+//   let sdr = +prompt('сколько вам лет?')
+//   function foo(a,b) {
+//    for (let i = 0; i < 18 ; i++) {
+//    if(a > 17 ){
+//     alert('вам сюда можно')
+//     break
+//    }
+//     }
+    
+//   if (a < 18){
+//     alert('вам сюда нельзя')
+//   }
+//   }
+//   foo(sdr)
+  
+  
+//   if (isNaN(sdr)){
+//     alert('не число')
+//   }else {
+//     des(sdr)
+//   }
+  
+//   function foo(a){
+//     des.push(a)
+//     a = +prompt()
+//   }
+  
+  
+//   console.log(des);
+  
+//   console.log(ad);
+  
+  
+//   console.log();
+//   console.log(answer);
+  
+//   console.log(b);
+//   console.log(ar[0]);
+//   console.log(ar.length)
+//   console.log(ar);
+  
+//    let a = Math.ceil(Math.random())
+//    console.log(a);
+  
+//    .ceil
+//    .floor
+//    .max==============> методы math
+//    .min
+//   .round
+  
+  
+//   let foo = [1,2,3,4,5,6,7,8,9,10]
+//   let ter = []
+//   let ter1 =[]
+//   function a (ber) {
+//   for (let i = 0; i < ber.length; i++) {
+//   if (ber[i] % 2 === 0){
+//   ter.push(ber[i])
+//   }else{
+//   ter1.push(ber[i])
+//       }
+//        }  
+  
+//   }
+//   a (foo)
+//   console.log(ter);
+//   console.log(ter1);
+  
+//   function a(){
+//   let b1 = 0
+//   let b2 = 0
+//   let df = 0 
+//   function b(){
+//   let al = 4
+//   b1 = al
+//       } 
+  
+//   b()
+//   function c() {
+//   let pa = 3
+//   b2 = pa
+//       }
+//   c()
+//   return df = b1+b2
+//   }
+// console.log(a());
+
+// let a = Math.ceil(Math.random()*100)
+// console.log(a);
+
+// let b = Math.max(1,130,-130,74)
+// console.log(b)
+
+// let b2 = Math.min(1,130,-130,74)
+// console.log(b2)
+
+// function getMaxOfArray(numArray) {
+//     return Math.max.apply(null, numArray);
+//   }
+ 
+//   console.log(console.log(getMaxOfArray([4, -2, 5, 30, -130])));
+//   console.log(Math.pow(getMaxOfArray(nu), 5))
+
+// const car = {
+//     name: 'tayota Corolla Fielder',
+//     color: ['grey','red','blue','orange'],
+//     wheels:4,
+//     price:1157000,
+//     owner:'Aleksandr',
+//     age: 13
+// }
+// console.log(car.color); 
+
+// function grte(a,s){
+//   let dc = []
+//   let kkf = []
+//   let kdds = 0  
+//   let gt = 0 
+//   let ft = 0
+//   let rew = 0
+//   n = [1,2,4,6,7,8,10]
+//   function bc() {
+//     for (let i = 0; i < n.length; i++) {
+//       if (n[i] % 2 === 0){
+//         dc.push(n[i])
+//         }else{
+//         kkf.push(n[i])
+//       }
+//      }
+//      gt= dc 
+//     ft = kkf
+// }
+// bc()
+// return kdds = gt
+// return rew = ft
+// }
+// grte(kdds,rew)
+// console.log(grte(kdds));
+// alert(grte(rew))
+
+// const user = {
+//   name: 'oleg',
+//   lastname: 'Zhilaitis',
+//   age: 13,
+//   scills: ['speak english','programming'],
+//   school: '32',
+//   animals: false
+// }
+
+// delete user.school
+// for (let i  in user ){
+//   console.log(i);
+//   console.log(user[i]);
+// }
+
+// сумма чисел в объекте:
+// const students = {
+//   artem:15,
+//   vladimir:16,
+//   dima:15
+// }
+// let age = 0
+// for (let i in students){
+// age +=students[i];
+// }
+// console.log(age);
+
+// const students = {
+//   artem:15,
+//   vladimir:16,
+//   dima:15
+// }
+// for(let i in students){
+//   console.log(i);
+// }
+
+// const htmlDiv = {
+// className: 'column',
+// rel:'main',
+// id:'block',
+// iterable: [10,20,30]
+// }
+// for(let i in htmlDiv){
+//     console.log(htmlDiv[i])}
+
+// const user = {
+//   name: 'reew',
+//   lastName: 'rra',
+//   age: 30,
+//   married: true,
+//   gAge(){
+//   user.age++
+//   if(this.age>30){
+//    this.getDivoiced()
+//   }
+//   },
+//   getDivoiced(){
+//     this.married = false
+//   },
+// }
+// console.log(user.gAge());
+// console.log(user);
+// console.log(this);
+
+// const us = {
+// Dima() {
+// console.log('hello')
+// }
+// }
+// console.log(us.Dima()); 
+
+// const user = {
+//     name: 'oleg',
+//     lastname: 'Zhilaitis',
+//    newName(){
+//     console.log(this.name = 'john');
+//    }
+//   }
+//   console.log(user.newName());
+
+// const user = {
+//   name: 'oleg',
+//   lastname: 'Zhilaitis',
+//  newName(a){
+//  user.name=a;
+//  }
+// }
+// console.log(user.newName('john'));
+
+// const user = {
+//   name: 'oleg',
+//   lastname: 'Zhilaitis',
+//  jj(){
+//   console.log(this.lastname.toLowerCase()); 
+//  }
+// }
+// console.log(user.jj());
 
 
+// Присваивование переменной значений функций:
+// const user = {
+//   mame: 'Sem',
+//   lastName: 'Fiend',
+//   age: 23,
+//   userName: 'Pablish',
+//   role: 'reptilian',
+//   scills:['black hole','poison','immortality'],
+//   step:0,
+//   right(a){
+// this.step += a
+//   },
+//   left(b){
+//     this.step += b
+//   },
+//   back(c){
+//     this.step += c
+//   },
+//   forward(d){
+//     this.step += d
+//   },
+// }
+// user.right(2)
+// user.left(2)
+// user.back(5)
+// user.forward(3)
+
+// console.log(user.step);
+
+// const correctAnswer = 'JavaScript';
+// const userAnswer = ' javaScript!';
+// let isCorrect = userAnswer.toLowerCase().includes(correctAnswer.toLowerCase())
+
+
+// console.log(isCorrect);
+
+
+
+// метод bind and call:
+// const person =  {
+//   name: 'Aleksandr',
+//   age: 55,
+//   info: function(){
+//     console.log(`Name is ${this.name}`);
+//     console.log(`Age is ${this.age}`);
+//   }
+// }
+// // person.info
+
+// const people = {
+//   name: 'Vasya',
+//   age: 23
+// }
+
+// person.info.bind(people)()
+// person.info.call(people)
+
+// const salary = 15.322432
+// console.log(a.toFixed(2));
+
+// const fruits = ['apple', 'banana', 'orange']
+// let hasOrange = (fruits.includes('orange'))
+// hasOrange = (fruits.indexOf('orange'))
+// console.log(hasOrange);
+
+// const cars = ['BMW','Nissan','VW','Skoda','Audi','Kia']
+// const favoriteCars = (cars.slice(0,3))
+// console.log(favoriteCars);
+
+// const cars = ['BMW','Nissan','VW','Skoda','Audi','Kia']
+// const OtherCars = (cars.splice(3,3))
+// console.log(OtherCars);
+
+// сравнение:
+// function polimorf(a) {
+//  let f = a.split('').reverse().join('') 
+//  return a === f
+// }
+// console.log(polimorf('anna'));
+
+// соединение 2х масивов:
+// let a = ['a','b','c']
+// let b = [1,2,3]
+// let sumArray = a.concat(b)
+// console.log(sumArray);
+
+// let a = ['a','b','c']
+
+// const without = (array) => {
+// return array.length
+
+// }
+// without(a)
+
+// console.log(without(a));
+
+// let a = 'vladimir'
+
+// const without = (array) => {
+//  let b = array.split ('').filter((g,l,n) => {
+//   console.log(g); 
+//   console.log(l);
+//   console.log(n); 
+//   return n.indexOf(g) !== l;
+//   }); 
+// }
+// console.log(without(a))
+
+                  
