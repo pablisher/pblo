@@ -745,5 +745,83 @@ let a = ar.filter(item => item > 2000
 //   }); 
 // }
 // console.log(without(a))
+                  // // let str = 'sliva'
+// let div =  document.createElement('div')
+// div.classList.add('mainSection')
+
+
+// let wrp = document.querySelector('.wrapper')
+
+// wrp.append(div)
+// // console.log(div);
+
+// let p = document.createElement('p')
+// p.classList.add('fis')
+
+// let gf = document.querySelector('.mainSection')
+// // p.innerHTML = `<span> banan ${str}</span>`
+// gf.prepend(p)
+// console.log(p); 
+
+// let v = document.createElement('br')
+// v.classList.add('ll')
+// let fl = document.querySelector('.fis')
+// fl.append(v)
+// // v.innerHTML=`<span>`
+// console.log(v);
+
+// let books = document.querySelectorAll('.book')
+// // console.log("🚀 ~ file: script.js:2 ~ books", books)
+
+// books[0].before(books[1])
+// books[4].after(books[3])
+// books[2].before(books[4])
+// books[3].after(books[2])
+// books[5].after(books[2])
+
+// // let gdd = document.querySelectorAll('ul')
+// // console.log("🚀 ~ file: script.js:11 ~ gdd", gdd)
+// let li = document.querySelectorAll('li')
+// console.log("🚀 ~ file: script.js:13 ~ elements", li)
+// li[15].after(li[8])
+// li[10].before(li[12])
+// li[12].after(li[14])
+// li[43].after(li[41])
+// li[38].before(li[45])
+// li[40].after(li[38])
+
+
+// let str = 'глава 8'
+// let fl = document.createElement('li')
+// fl.classList.add('list')
+// li[55].after(fl)
+// fl.innerHTML=`<li>${str}</li>`
+
+// let body = document.body;
+// body.addEventListener('click', function () {
+//     console.log('клик');
+// });
+
+// body.onclick = function(k) {
+//  console.log('Клик');   
+// }
+
+// body.onmouseup= function (params) {
+//     console.log('rkn');
+// }
+
+// let button = document.querySelector('button')
+// button.onmousedown = function (params) {
+//         alert('вы нажали на кнопку');
+        
+//      }
+
+// let button = document.querySelector('button')
+// button.addEventListener('click', function () {
+//     let sss = Math.ceil(Math.random()*100);
+//     let f = document.querySelector('div')
+//     f.innerHTML = `<span>${sss}</span>`
+//      });
+
 
                   
