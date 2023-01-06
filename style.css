@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(245, 245, 219);
+}
+
+h1 {
+    color:aqua;
+    margin: 15px;
+    }
+
+.mainSection{
+    background: rgb(255, 4, 4);
+    font-size: 15px;
+color: aqua;
+}
+
+.btn{
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* .kub{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(16, 192, 192);
+    position: absolute;
+} */
+
+canvas {
+    border: 3px solid black;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: white;
+    
+
+}
