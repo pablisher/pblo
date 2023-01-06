@@ -822,6 +822,73 @@ let a = ar.filter(item => item > 2000
 //     let f = document.querySelector('div')
 //     f.innerHTML = `<span>${sss}</span>`
 //      });
+                  let button = document.querySelector('button')
+// button.addEventListener('click', function () {
+//     let sss = Math.ceil(Math.random()*100);
+//     let f = document.querySelector('div')
+//     f.innerHTML = `<span>${sss}</span>`
+//      });
+
+//      let button = document.querySelector('button')
+// button.addEventListener('click', function () {
+    
+//     let sss = Math.ceil(Math.random()*100);
+
+//      let f =document.querySelector('div')
+//     f.innerHTML = `<span>${sss}</span>`
+//      });
+
+//      let btn = document.querySelector('button')
+//      let i1 = 0;
+// let ssqs = ['black', 'green', 'blue', 'purple','red','yellow','pink','grey','orange','brown']
+// btn.addEventListener('click', function () {
+//     let clt = ssqs[Math.ceil(Math.random()*10)]
+//        body.style.backgroundColor = clt;
+//     btn.style.backgroundColor = clt;
+//     btn.style.color = 'white';
+  
+//   });
+
+ 
+// let boody = document.querySelector('body')
+//      let i = 0;
+// let color = ['black', 'green', 'blue', 'purple','red','yellow','pink','grey','orange','brown'];
+// btn.addEventListener('click', function () {
+//     let clr = color[Math.ceil(Math.random()*10)]
+//        boody.style.backgroundColor = clr;
+
+//   });
+     
+
+
+// let body = document.querySelector('body')
+// body.addEventListener('mouseup',  (event) => {
+//     let x = event.offsetX
+//     let y = event.offsetY
+//    document.querySelector('.kub').style.top = `${y}px`
+//    document.querySelector('.kub').style.left=  `${x}px`
+
+// }
+// )
+
+let canvas = document.querySelector('#canvas')
+let ctx = canvas.getContext('2d')
+canvas.width = 300 
+canvas.height = 300 
+// ctx.fillStyly = 'orange'
+// ctx.fillRect(100,50,100, 50)
+// ctx.strokeStyle = 'red'
+// ctx.SrokeRect (100, 100, 100, 75)
+// ctx.clearRect(100,50,100, 50)
+ctx.strokeStyle = 'red'
+ctx.fillStile = 'green'
+ctx.beginPath()
+ctx.moveTo(50,50) 
+ctx.lineTo(100,100)
+ctx.lineTo(200,50)
+ctx.closePath()
+ctx.stroke()
+ctx.fill()
 
 
                   
